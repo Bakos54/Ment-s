@@ -270,44 +270,5 @@ static bool keres2(int[] alap, List<int[]> tabuk)
 
     return tabuk.Contains(alap);
 }
-static void tabu()
-{
 
-    /*int iteracio = 500;
-List<int[]> tabu = new List<int[]>();
-//int tabulim = 10;
-int tabumax = 35;
-for (int i = 0; i < iteracio; i++)
-{
-    List<int[]> szomszed = new List<int[]>();
-    int[] mostanisor = sorrrend;
-    list = szomszedok(mostanisor);
-    for (int j = 0; j < szomszed.Count; j++)
-    {
-        if (keres1(szomszed[j], tabu))
-        {
-
-            szomszed.Remove(szomszed[j]);
-        }
-    }
-    int max = eredmeny(p, hatarid, mostanisor);
-    foreach (var j in szomszed)
-    {
-        int a = eredmeny(p, hatarid, j);
-        if (a < max)
-        {
-            max = a;
-            mostanisor = j;
-        }
-    }
-    tabu.Add(mostanisor.ToArray());
-    if (tabu.Count > tabumax)
-    {
-        for (int j = tabu.Count; j > tabumax; j--)
-        {
-            tabu.Remove(tabu[j]);
-        }
-    }
-
-}*/
 }
