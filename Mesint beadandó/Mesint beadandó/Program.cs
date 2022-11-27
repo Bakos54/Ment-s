@@ -255,20 +255,4 @@ static int eredmeny(int[,] gepfel, int[] hatarido,int[] soroz)
 
 
 }
-static bool keres1(int[] alap, List<int[]> tabuk)
-{
 
-    HashSet<int[]> ht = new HashSet<int[]>();
-    foreach (var i in tabuk)
-    {
-        ht.Add(i);
-    }
-    return ht.Contains(alap);
-}
-static bool keres2(int[] alap, List<int[]> tabuk)
-{
-
-    return tabuk.Contains(alap);
-}
-
-}
