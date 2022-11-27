@@ -133,7 +133,6 @@ static void szimhut(int[] sorrrend, int[,] p, int[] hatarid, int iter) {
     int vegered=0;
     for (int i = iter; i > 1; i--)
     {
-        //Console.WriteLine($"iterácio: {i}");
         const double k = 1.3807e-16; //BOLTZMAN
         list = szomszedok(mostanisor);
         int rand = rnd.Next(0, list.Count);
@@ -153,7 +152,6 @@ static void szimhut(int[] sorrrend, int[,] p, int[] hatarid, int iter) {
             z = -1 * (osz / (k * i));
             prob = Math.Exp(z);
             prob = prob * 100;
-            //Console.WriteLine("prob= " + prob);
             int a = Convert.ToInt32(Math.Truncate(prob));
             if (rnd.Next(0, 100) < a) { 
             mostanisor = list[rand];
@@ -171,13 +169,11 @@ static void szimhut(int[] sorrrend, int[,] p, int[] hatarid, int iter) {
 static int[,] sorcsere(int[,] eredet, int[] sor ) {
 
     int[,] valasz = new int[eredet.GetLength(0), eredet.GetLength(1)];
-    //Console.WriteLine("");
     for (int i = 0; i < eredet.GetLength(0); i++)
     {
         for (int j = 0; j < eredet.GetLength(1); j++)
         {
             valasz[i, j] = eredet[sor[i], j];
-            //Console.WriteLine($"ez ir ki {valasz[i,j]},");
         }
 
     }
@@ -193,7 +189,7 @@ static int eredmeny(int[,] gepfel, int[] hatarido,int[] soroz)
     {
         for (int sor = 0; sor < gepfel.GetLength(0); sor++)
         {
-            if (oszlop == 0)            //az első oszlop generálás
+            if (oszlop == 0)        
             {
                 int osz = 0;
                 for (int k = sor; k >= 0; k--)
@@ -206,7 +202,7 @@ static int eredmeny(int[,] gepfel, int[] hatarido,int[] soroz)
             }
             else
             {
-                int osz = bef[0, oszlop - 1]; //mindig azzal kezdünk amivvel az elzö 1. feladat befejezési ideje 
+                int osz = bef[0, oszlop - 1]; 
                 int osz2 = 0;
                 int varakozas = 0;
                 int beflast = 0;
@@ -223,10 +219,10 @@ static int eredmeny(int[,] gepfel, int[] hatarido,int[] soroz)
                             osz = bef[k + 1, oszlop - 1];
                         }
                     }
-                    // Console.WriteLine("");
+
 
                 }
-                //Console.WriteLine("");
+
                 if (osz == beflast) varak[sor, oszlop] = beflast - osz2;
                 bef[sor, oszlop] = osz;
             }
