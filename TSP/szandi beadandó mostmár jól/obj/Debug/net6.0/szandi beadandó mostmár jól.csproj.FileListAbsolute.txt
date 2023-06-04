@@ -1,0 +1,15 @@
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.csproj.AssemblyReference.cache
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.AssemblyInfoInputs.cache
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.AssemblyInfo.cs
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.csproj.CoreCompileInputs.cache
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\bin\Debug\net6.0\szandi beadandó mostmár jól.exe
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\bin\Debug\net6.0\szandi beadandó mostmár jól.deps.json
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\bin\Debug\net6.0\szandi beadandó mostmár jól.runtimeconfig.json
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\bin\Debug\net6.0\szandi beadandó mostmár jól.dll
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\bin\Debug\net6.0\szandi beadandó mostmár jól.pdb
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.dll
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\refint\szandi beadandó mostmár jól.dll
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.pdb
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\szandi beadandó mostmár jól.genruntimeconfig.cache
+C:\Users\Kristóf\source\repos\szandi beadandó mostmár jól\szandi beadandó mostmár jól\obj\Debug\net6.0\ref\szandi beadandó mostmár jól.dll
